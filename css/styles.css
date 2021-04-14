@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+/* Header */
+.header {
+  background-color: blueviolet;
+  min-height: 60px;
+  color: #ffffff;
+  padding: 10px;
+}
+/* Main -Container */
+.container {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+/* form birth-year-finder */
+.birth-year-finder {
+  margin: 50px 0;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: #ffffff;
+  min-height: 50vh;
+}
+/* Heading - form */
+.heading-form {
+  padding: 10px;
+}
+/* form input */
+form input {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+form input:hover {
+  border: 2px solid cadetblue;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 2px;
+}
+/* form button */
+form button {
+  padding: 10px;
+  background-color: blueviolet;
+  border: none;
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form button:hover {
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* birth-year */
+.birth-year {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 10px 0;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.birth-of-year {
+  border: 2px dashed blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px 0;
+}

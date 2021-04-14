@@ -74,3 +74,11 @@ form button:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px 0;
 }
+/* error class */
+.error {
+  border: 2px solid red;
+}
+/* success class */
+.success {
+  border: 2px solid green;
+}

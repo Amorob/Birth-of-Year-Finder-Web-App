@@ -55,7 +55,7 @@ form button {
   color: #ffffff;
   border-radius: 3px;
   font-size: 1.2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 form button:hover {
   background-color: cadetblue;
@@ -66,19 +66,11 @@ form button:hover {
 .birth-year {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 10px 0;
-  padding: 20px;
+  padding: 20px 30px;
   font-size: 1.5rem;
 }
 .birth-of-year {
   border: 2px dashed blueviolet;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px 0;
-}
-/* error class */
-.error {
-  border: 2px solid red;
-}
-/* success class */
-.success {
-  border: 2px solid green;
 }

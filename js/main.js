@@ -6,10 +6,13 @@ btn.addEventListener("click", function (e) {
   let ageInYears = document.getElementById("age").value;
   let birthYear = document.getElementById("birth-year");
   if (isNaN(ageInYears)) {
-    alert("Enter a valid age");
+    alert("Enter a valid age!");
     return false;
   } else if (ageInYears < 0) {
-    alert("Your age cannot be less than 0. Enter a valid age");
+    alert("Your age cannot be less than 0. Enter a valid age!");
+    return false;
+  } else if (ageInYears.trim() === "") {
+    alert("Age in years can not be empty. Enter a valid age!");
     return false;
   }
 
